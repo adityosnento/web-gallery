@@ -1,4 +1,3 @@
-//@ts-check
 import { getUnique } from "../../components/utilities/functions";
 
 const initialState = {

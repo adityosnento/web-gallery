@@ -72,6 +72,10 @@ body {
   .bread-crumbs {
     display: block;
     margin: 10px auto;
+
+    h3 {
+      font-size: 24px;
+    }
   }
 }
 
@@ -146,24 +150,24 @@ body {
 
 .search-bar {
   white-space: nowrap;
+  font-family: "roboto", sans-serif;
   padding: 5px;
-  margin: 10px auto;
   background: $secondary-color;
   text-align: center;
-  padding-top: 20px;
   .bar {
-    border-radius: 2rem 0 0 2rem;
-    padding: 10px;
+    border-radius: 1.5rem 0 0 1.5rem;
+    padding: 15px;
     margin: 0 auto;
     background: #F4F7F8;
     text-align: center;
-    border: 2px solid #f4f7f8
+    border: 2px solid #f4f7f8;
+    width : 40vw;
   }
   .search {
-    border-radius: 0 2rem 2rem 0;
+    border-radius: 0 1.5rem 1.5rem 0;
     border-left: 0;
-    padding: 10px 20px;
-    max-width: 100px;
+    padding: 15px;
+    width: 7vw;
     margin: 0 auto;
     background: $secondary-color;
     text-align: center;
@@ -196,6 +200,21 @@ body {
   }
 }
 
+.navbar {
+  height: 100px;
+  box-shadow: 0 1px 30px 0 rgba(107, 107, 107, 0.2);
+  margin-bottom: 60px;
+  font-family: 'Satisfy', cursive;
+  
+  img {
+    width: 4%;
+  }
+
+  span {
+    left: 0px;
+  }
+}
+
 .featured:hover {
   // -webkit-box-shadow: 0 10px 6px -6px #777;
   // -moz-box-shadow: 0 10px 6px -6px #777;
@@ -210,6 +229,7 @@ body {
   background-color: white;
   color: rgb(128, 128, 128);
   border-radius: 0px 0px 5px 5px;
+  margin-top: 15px;
 
   .tag {
     border-radius: 2rem;

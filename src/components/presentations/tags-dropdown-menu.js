@@ -5,7 +5,7 @@ const DropDownMenu = props => {
   const tags = props.tags.split(" ");
   return (
     <nav className="photo-tags">
-      <nav className="tag">Tags + </nav>
+      <nav className="tag">Tags</nav>
       <ul className="drop-down-tags transition shadow">
         {tags[0] !== "" ? (
           tags.map(tag => (

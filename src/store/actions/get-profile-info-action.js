@@ -17,7 +17,7 @@ const getProfile = (id = 0) => {
       .then(res => {
         dispatch({
           type: "PROFILE",
-          payload: res.data
+          payload: res.data.photos
         });
       })
       .catch(err =>
